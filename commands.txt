@@ -1,5 +1,16 @@
 django commands
 
+//ccdjango
+pip install virtualenvwrapper
+mkvitualenv py1
+pip install django
+django-admin startproject CCDjango
+cd CCDjango
+python manage.py runserver
+pip install mysqlclient
+//after making the db in phpmyadmin
+python manage.py migrate
+
 mkdir asdf
 django-admin startproject mysite
 python manage.py startapp appname(actually a module of a big project)
